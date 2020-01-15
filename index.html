@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.3, maximum-scale=0.3, user-scalable=0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+    <script src="Pole.js"></script>
+    <script src="Disk.js"></script>
+    
+    <script src="Menu.js"></script>
+    
+    <title>Tower of Hanoi</title>
+  </head>
+  <body>
+    <div id="app">
+
+      <!-- MODAL -->
+
+      <div class="modal-wrapper" id="config-modal">
+        <div class="modal">
+          <div class="content">
+            <div class="config-header">
+              <h1>Configurations</h1>
+              <div class="divider"></div>
+            </div>
+            <div class="config-body">
+              <p>asdsada</p>
+              <p>asdsada</p>
+              <p>asdsada</p>
+              <p>asdsada</p>
+              <p>asdsada</p>
+            </div>
+            <div class="config-footer">
+              <div class="divider"></div>
+              <div class="buttons">
+                <button id="config-cancelButton">Cancel</button>
+                <button id="config-saveButton">Apply</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GAME -->
+
+      <div class="gui-row">
+        <p id="timer"></p>
+        <p id="record"></p>
+        <p id="moves"></p>
+        <p id="target"></p>
+      </div>
+      <canvas id="canvas" height="440" width="1064"></canvas>
+      <div class="gui-row">
+        <p id="kps"></p>
+      </div>
+
+      <!-- MENU -->
+      <button id="config-button">
+        <img src="media/Cog_font_awesome.svg" style="fill: red">
+      </button>
+    </div>
+  </body>
+</html>
